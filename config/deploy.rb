@@ -13,7 +13,7 @@ set :application, 'consul'
 set :full_app_name, deploysecret(:full_app_name)
 
 set :server_name, deploysecret(:server_name)
-set :repo_url, 'https://github.com/consul/consul.git'
+set :repo_url, 'https://github.com/UsabiTeam/consul_el_rosario.git'
 
 set :revision, `git rev-parse --short #{fetch(:branch)}`.strip
 
@@ -41,15 +41,18 @@ set(:config_files, %w(
 set :whenever_roles, -> { :app }
 
 namespace :deploy do
-  before :starting, 'rvm1:install:rvm'  # install/update RVM
-  before :starting, 'rvm1:install:ruby' # install Ruby and create gemset
-  before :starting, 'install_bundler_gem' # install bundler gem
+#  before :starting, 'rvm1:install:rvm'  # install/update RVM
+#  before :starting, 'rvm1:install:ruby' # install Ruby and create gemset
+#  before :starting, 'install_bundler_gem' # install bundler gem
 
-  after :publishing, 'deploy:restart'
+  #after :publishing, 'deploy:restart'
   after :published, 'delayed_job:restart'
   after :published, 'refresh_sitemap'
 
   after :finishing, 'deploy:cleanup'
+  after :publishing, 'restart_tmp'
+  # Restart Delayed Jobs
+  after 'deploy:published', 'delayed_job:restart'
 end
 
 task :install_bundler_gem do
@@ -65,5 +68,12 @@ task :refresh_sitemap do
         execute :rake, 'sitemap:refresh:no_ping'
       end
     end
+  end
+end
+
+desc "Restart application"
+  task :restart_tmp do
+    on roles(:app) do
+    execute "touch #{ File.join(current_path, 'tmp', 'restart.txt') }"
   end
 end
