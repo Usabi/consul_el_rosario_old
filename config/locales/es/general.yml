@@ -385,9 +385,9 @@ es:
       section_footer:
         title: Ayuda sobre las propuestas
         description: Haz una propuesta ciudadana. Si obtiene los apoyos suficientes y pasa a votación, puedes conseguir que todos los habitantes decidan cómo quieren que sea nuestra ciudad.
-        help_text_1: "Las propuestas ciudadanas son una oportunidad para que los vecinos y colectivos decidan directamente cómo quieren que sea su ciudad. Cualquier persona puede hacer una propuesta sobre un tema que le interese o preocupe para que el ayuntamiento la lleve a cabo, después de conseguir los apoyos suficientes y de someterse a votación ciudadana."
-        help_text_2: "Para crear una propuesta hay que registrarse en %{org}. Las propuestas que consigan el apoyo del 1% de la gente en la web, pasan a votación. Para apoyar propuestas es necesario tener una cuenta verificada."
-        help_text_3: "Se convoca una votación ciudadana cuando las propuestas consiguen los apoyos necesarios. Una vez celebrada, si hay más gente a favor que en contra, el Consistorio asume la propuesta y la lleva a cabo."
+        help_text_1: "Las propuestas ciudadanas son una oportunidad para que la vecindad y colectivos decidan directamente cómo quieren que sea su ciudad. Cualquier persona puede hacer una propuesta sobre un tema que le interese o preocupe para que el ayuntamiento la lleve a cabo, después de conseguir los apoyos suficientes y de someterse a votación ciudadana."
+        help_text_2: "Para crear una propuesta hay que registrarse en %{org} y cumplir con las condiciones estipuladas en el artículo 30 del Reglamento de Participación Ciudadana del Ayuntamiento de El Rosario. Las propuestas que consigan el apoyo del 1% de la gente en la web, pasan a votación. Para apoyar propuestas es necesario tener una cuenta verificada."
+        help_text_3: "Se convoca una votación ciudadana cuando las propuestas consiguen los apoyos necesarios. Una vez celebrada, si hay más gente a favor que en contra, el Consistorio toma en consideración la propuesta para llevarla a cabo siempre y cuando el informe de viabilidad jurídica, económica y técnica así lo permita."
     new:
       form:
         submit_button: Crear propuesta
@@ -477,9 +477,9 @@ es:
         help: Ayuda sobre las votaciones
       section_footer:
         title: Ayuda sobre las votaciones
-        description: Regístrate para poder votar propuestas ciudadanas y las cuestiones que pregunta a sus vecinos el Ayuntamiento. Toma decisiones municipales de forma directa.
+        description: Regístrate para poder votar propuestas ciudadanas y las cuestiones que pregunta a su vecindad el Ayuntamiento. Toma decisiones municipales de forma directa.
         help_text_1: "Las votaciones se convocan cuando una propuesta ciudadana alcanza el 1% de apoyos del censo con derecho a voto. En las votaciones también se pueden incluir cuestiones que el Ayuntamiento somete a decisión directa de la ciudadanía."
-        help_text_2: "Para participar en la próxima votación tienes que registrarte en %{org} y verificar tu cuenta. Pueden votar todas las personas empadronadas en la ciudad mayores de 16 años. Los resultados de todas las votaciones serán vinculantes para el gobierno."
+        help_text_2: "Para participar en la próxima votación tienes que registrarte en %{org} y verificar tu cuenta. Pueden votar todas las personas empadronadas en la ciudad mayores de 16 años. Los resultados de todas las votaciones serán tomados en consideración por El Ayuntamiento para llevarlos a cabo siempre y cuando el informe de viabilidad jurídica, económica y técnica así lo permita"
     show:
       already_voted_in_booth: "Ya has participado en esta votación en urnas presenciales, no puedes volver a participar."
       already_voted_in_web: "Ya has participado en esta votación. Si vuelves a votar se sobreescribirá tu resultado anterior."
@@ -530,7 +530,7 @@ es:
       title_label: "Título"
       body_label: "Mensaje"
       submit_button: "Enviar mensaje"
-      info_about_receivers_html: "Este mensaje se enviará a <strong>%{count} usuarios</strong> y se publicará en %{proposal_page}.<br> El mensaje no se enviará inmediatamente, los usuarios recibirán periódicamente un email con todas las notificaciones de propuestas."
+      info_about_receivers_html: "Este mensaje se enviará a <strong>%{count} personas usuarias</strong> y se publicará en %{proposal_page}.<br> El mensaje no se enviará inmediatamente, las personas usuarias recibirán periódicamente un email con todas las notificaciones de propuestas."
       proposal_page: "la página de la propuesta"
     show:
       back: "Volver a mi actividad"
@@ -779,7 +779,7 @@ es:
       description: La ciudadanía decide si acepta o rechaza las propuestas más apoyadas.
       title: Decides
     do:
-      description: Si la propuesta es aceptada mayoritariamente, el Ayuntamiento la asume como propia y se hace.
+      description: Si la propuesta es aceptada mayoritariamente, el Ayuntamiento la asume como propia y se hace, siempre y cuando el informe de viabilidad jurídica, económica y técnica así lo permita.
       title: Se hace
     proposal:
       description: Espacio abierto para propuestas ciudadanas sobre el tipo de ciudad en el que queremos vivir.
