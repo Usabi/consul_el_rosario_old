@@ -1,0 +1,43 @@
+<ul class="no-bullet external-links">
+  <li>
+    <%= link_to t("layouts.header.external_link_transparency"),
+                setting['transparency_url'].presence || t("layouts.header.external_link_transparency_url"),
+                target: "_blank",
+                rel: "nofollow",
+                title: t("shared.go_to_page") + t("layouts.header.external_link_transparency") + t('shared.target_blank_html') %>
+  </li>
+  <% if setting['opendata_url'] %><li>
+    <%= link_to t("layouts.header.external_link_opendata"),
+                setting['opendata_url'].presence || t("layouts.header.external_link_opendata_url"),
+                target: "_blank",
+                rel: "nofollow",
+                title: t("shared.go_to_page") + t("layouts.header.external_link_opendata") + t('shared.target_blank_html') %>
+    </li>
+  <% end %>
+
+  <% if setting['blog_url'] %>
+    <li>
+      <%= link_to t("layouts.header.external_link_blog"),
+                  setting['blog_url'],
+                  target: "_blank",
+                  rel: "nofollow",
+                  title: t("shared.go_to_page") + t("layouts.header.external_link_blog") + t('shared.target_blank_html') %>
+    </li>
+   <% end %>
+  <li>
+    <%= link_to 'https://www.facebook.com/Ayuntamiento-de-El-Rosario-1409843942610473/' do %>
+      <span class="icon-facebook"></span>
+    <% end %>
+  </li>
+  <li>
+    <%= link_to 'https://twitter.com/aytoelrosario' do %>
+      <span class="icon-twitter"></span>
+    <% end %>
+  </li>
+  <li>
+    <%= link_to 'https://www.youtube.com/channel/UCMjE3krCiPGhcgF1YTH8usg' do %>
+      <span class="icon-youtube"></span>
+    <% end %>
+  </li>
+  <%= raw content_block("top_links", I18n.locale) %>
+</ul>
