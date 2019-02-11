@@ -20,7 +20,6 @@ class SMSApi
     request.set_form_data(request(phone, code))
     request["Content-Type"] = "application/x-www-form-urlencoded"
     request["key"] = Rails.application.secrets.sms_password
-    debugger
     response = @client.request(request)
     success?(response)
   end
