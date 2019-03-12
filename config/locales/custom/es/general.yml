@@ -200,7 +200,8 @@ es:
       conditions: Condiciones de uso
       consul: aplicación CONSUL
       consul_url: https://github.com/consul/consul
-      contact_us: Para asistencia técnica entra en
+      contact_us: "Asistencia técnica:"
+      contact_us_text: "922 01 01 60 | Plaza del Ayuntamiento, 1, La Esperanza, 38290, El Rosario (SC de Tenerife)"
       copyright: CONSUL, %{year}
       description: Este portal usa la %{consul} que es %{open_source}.
       faq: Asistencia técnica
