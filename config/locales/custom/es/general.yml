@@ -129,7 +129,7 @@ es:
         description: Inicia un debate para compartir puntos de vista con otras personas sobre los temas que te preocupan.
         help_text_1: "El espacio de debates ciudadanos está dirigido a que cualquier persona pueda exponer temas que le preocupan y sobre los que quiera compartir puntos de vista con otras personas."
         help_text_2: 'Para abrir un debate es necesario registrarse en %{org}. Los usuarios ya registrados también pueden comentar los debates abiertos y valorarlos con los botones de "Estoy de acuerdo" o "No estoy de acuerdo" que se encuentran en cada uno de ellos.'
-        help_text_3: "Ten en cuenta que un debate no activa ningún mecanismo de actuación concreto. Si quieres hacer una %{proposal} para la ciudad o plantear un proyecto de %{budget} cuando se abra la convocatoria, ve a la sección correspondiente."
+        help_text_3: "Ten en cuenta que un debate no activa ningún mecanismo de actuación concreto. Si quieres hacer una %{proposal} para el municipio o plantear un proyecto de %{budget} cuando se abra la convocatoria, ve a la sección correspondiente."
         proposals_link: propuesta
         budget_link: presupuestos participativos
     new:
@@ -187,7 +187,7 @@ es:
     topic: Tema
     image: Imagen
   geozones:
-    none: Toda la ciudad
+    none: Todo el municipio
     all: Todos los ámbitos de actuación
   layouts:
     application:
@@ -208,10 +208,10 @@ es:
       open_data_title: Datos Abiertos
       open_source: software de código abierto
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
-      participation_text: Decide cómo debe ser la ciudad que quieres.
+      participation_text: Decide cómo debe ser el municipio que quieres.
       participation_title: Participación
       privacy: Política de privacidad
-      transparency_text: Obtén cualquier información sobre la ciudad.
+      transparency_text: Obtén cualquier información sobre el municipio.
       transparency_title: Transparencia
       transparency_url: https://transparency.consul
     header:
@@ -240,8 +240,8 @@ es:
         other: Tienes %{count} notificaciones nuevas
       no_notifications: "No tienes notificaciones nuevas"
       open: abierto
-      open_city_slogan_html: Existen ciudades gobernadas directamente por sus habitantes, que <strong>debaten</strong> sobre temas que les preocupan, <strong>proponen</strong> ideas para mejorar sus vidas y <strong>deciden</strong> entre todas y todos las que se llevan a cabo.
-      open_city_title: La ciudad que quieres será la ciudad que quieras
+      open_city_slogan_html: Existen municipios gobernados directamente por sus habitantes, que <strong>debaten</strong> sobre temas que les preocupan, <strong>proponen</strong> ideas para mejorar sus vidas y <strong>deciden</strong> entre todas y todos las que se llevan a cabo.
+      open_city_title: El municipio que quieres será el municipio que quieras
       open_gov: Gobierno %{open}
       proposals: Propuestas
       poll_questions: Votaciones
@@ -385,7 +385,7 @@ es:
       section_footer:
         title: Ayuda sobre las propuestas
         description: Haz una propuesta ciudadana. Si obtiene los apoyos suficientes y pasa a votación, puedes conseguir que todos los habitantes decidan cómo quieren que sea nuestra ciudad.
-        help_text_1: "Las propuestas ciudadanas son una oportunidad para que la vecindad y colectivos decidan directamente cómo quieren que sea su ciudad. Cualquier persona puede hacer una propuesta sobre un tema que le interese o preocupe para que el ayuntamiento la lleve a cabo, después de conseguir los apoyos suficientes y de someterse a votación ciudadana."
+        help_text_1: "Las propuestas ciudadanas son una oportunidad para que la vecindad y colectivos decidan directamente cómo quieren que sea su municipio. Cualquier persona puede hacer una propuesta sobre un tema que le interese o preocupe para que el ayuntamiento la lleve a cabo, después de conseguir los apoyos suficientes y de someterse a votación ciudadana."
         help_text_2: "Para crear una propuesta hay que registrarse en %{org} y cumplir con las condiciones estipuladas en el artículo 30 del Reglamento de Participación Ciudadana del Ayuntamiento de El Rosario. Las propuestas que consigan el apoyo del 1% de la gente en la web, pasan a votación. Para apoyar propuestas es necesario tener una cuenta verificada."
         help_text_3: "Se convoca una votación ciudadana cuando las propuestas consiguen los apoyos necesarios. Una vez celebrada, si hay más gente a favor que en contra, el Consistorio toma en consideración la propuesta para llevarla a cabo siempre y cuando el informe de viabilidad jurídica, económica y técnica así lo permita."
     new:
@@ -467,7 +467,7 @@ es:
       participate_button: "Participar en esta votación"
       participate_button_incoming: "Más información"
       participate_button_expired: "Votación terminada"
-      no_geozone_restricted: "Toda la ciudad"
+      no_geozone_restricted: "Todo el municipio"
       geozone_restricted: "Distritos"
       geozone_info: 'Pueden participar las personas empadronadas en: '
       already_answer: "Ya has participado en esta votación"
@@ -479,7 +479,7 @@ es:
         title: Ayuda sobre las votaciones
         description: Regístrate para poder votar propuestas ciudadanas y las cuestiones que pregunta a su vecindad el Ayuntamiento. Toma decisiones municipales de forma directa.
         help_text_1: "Las votaciones se convocan cuando una propuesta ciudadana alcanza el 1% de apoyos del censo con derecho a voto. En las votaciones también se pueden incluir cuestiones que el Ayuntamiento somete a decisión directa de la ciudadanía."
-        help_text_2: "Para participar en la próxima votación tienes que registrarte en %{org} y verificar tu cuenta. Pueden votar todas las personas empadronadas en la ciudad mayores de 16 años. Los resultados de todas las votaciones serán tomados en consideración por El Ayuntamiento para llevarlos a cabo siempre y cuando el informe de viabilidad jurídica, económica y técnica así lo permita"
+        help_text_2: "Para participar en la próxima votación tienes que registrarte en %{org} y verificar tu cuenta. Pueden votar todas las personas empadronadas en el municipio mayores de 16 años. Los resultados de todas las votaciones serán tomados en consideración por El Ayuntamiento para llevarlos a cabo siempre y cuando el informe de viabilidad jurídica, económica y técnica así lo permita"
     show:
       already_voted_in_booth: "Ya has participado en esta votación en urnas presenciales, no puedes volver a participar."
       already_voted_in_web: "Ya has participado en esta votación. Si vuelves a votar se sobreescribirá tu resultado anterior."
@@ -773,7 +773,7 @@ es:
       different_heading_assigned: Sólo puedes apoyar proyectos de gasto de una partida
   welcome:
     debates:
-      description: Encontrarnos, debatir y compartir lo que nos parece importante en nuestra ciudad.
+      description: Encontrarnos, debatir y compartir lo que nos parece importante en nuestro municipio.
       title: Debates
     decide:
       description: La ciudadanía decide si acepta o rechaza las propuestas más apoyadas.
@@ -782,7 +782,7 @@ es:
       description: Si la propuesta es aceptada mayoritariamente, el Ayuntamiento la asume como propia y se hace, siempre y cuando el informe de viabilidad jurídica, económica y técnica así lo permita.
       title: Se hace
     proposal:
-      description: Espacio abierto para propuestas ciudadanas sobre el tipo de ciudad en el que queremos vivir.
+      description: Espacio abierto para propuestas ciudadanas sobre el tipo de municipio en el que queremos vivir.
       title: Propones
     recommended:
       title: Recomendaciones que te pueden interesar

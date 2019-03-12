@@ -57,7 +57,7 @@ es:
       title_html: "Has enviado un nuevo mensaje privado a <strong>%{receiver}</strong> con el siguiente contenido:"
     user_invite:
       ignore: "Si no has solicitado esta invitación no te preocupes, puedes ignorar este correo."
-      text: "¡Gracias por solicitar unirte a %{org}! En unos segundos podrás empezar a decidir la ciudad que quieres, sólo tienes que rellenar el siguiente formulario:"
+      text: "¡Gracias por solicitar unirte a %{org}! En unos segundos podrás empezar a decidir el municipio que quieres, sólo tienes que rellenar el siguiente formulario:"
       thanks: "Muchas gracias."
       title: "Bienvenido a %{org}"
       button: Completar registro
@@ -75,7 +75,7 @@ es:
     budget_investment_selected:
       subject: "Tu proyecto de gasto '%{code}' ha sido seleccionado"
       hi: "Estimado/a usuario/a"
-      selected_html: "Desde el Ayuntamiento de Madrid agradecemos que hayas participado con tu idea en los <strong>Presupuestos Participativos</strong>. Te informamos de que tu proyecto <strong>'%{title}'</strong> ha sido seleccionado y pasa a la fase de votación final que tiene lugar desde el <strong>15 de mayo hasta el 30 de junio de 2017</strong>."
+      selected_html: "Desde el Ayuntamiento de El Rosario agradecemos que hayas participado con tu idea en los <strong>Presupuestos Participativos</strong>. Te informamos de que tu proyecto <strong>'%{title}'</strong> ha sido seleccionado y pasa a la fase de votación final que tiene lugar desde el <strong>15 de mayo hasta el 30 de junio de 2017</strong>."
       share: "Empieza ya a conseguir votos, comparte tu proyecto de gasto en redes sociales. La difusión es fundamental para conseguir que se haga realidad."
       share_button: "Comparte tu proyecto"
       thanks: "Gracias de nuevo por tu participación."
@@ -84,8 +84,8 @@ es:
     budget_investment_unselected:
       subject: "Tu proyecto de gasto '%{code}' no ha sido seleccionado"
       hi: "Estimado/a usuario/a"
-      unselected_html: "Desde el Ayuntamiento de Madrid agradecemos que hayas participado con tu idea en los <strong>Presupuestos Participativos</strong>. Lamentamos informarte de que tu proyecto <strong>'%{title}'</strong> no ha sido seleccionado para la fase de votación final."
-      participate_html: "Puedes continuar participando en la votación final votando proyectos para toda la ciudad y el distrito que elijas desde el <strong>15 de mayo hasta el 30 de junio de 2017.</strong>"
+      unselected_html: "Desde el Ayuntamiento de El Rosario agradecemos que hayas participado con tu idea en los <strong>Presupuestos Participativos</strong>. Lamentamos informarte de que tu proyecto <strong>'%{title}'</strong> no ha sido seleccionado para la fase de votación final."
+      participate_html: "Puedes continuar participando en la votación final votando proyectos para todo el municipio que elijas desde el <strong>15 de mayo hasta el 30 de junio de 2017.</strong>"
       participate_url: "participes en la votación final"
       thanks: "Gracias de nuevo por tu participación."
       sincerely: "Atentamente"
