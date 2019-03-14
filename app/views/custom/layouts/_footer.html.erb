@@ -10,11 +10,8 @@
           open_source: link_to(t("layouts.footer.open_source"), t("layouts.footer.open_source_url"), target: "blank", rel: "nofollow"),
           consul:  link_to(t("layouts.footer.consul"), t("layouts.footer.consul_url"), target: "blank", rel: "nofollow")).html_safe
         %>
-      </p>
-      <p class="info">
-        <strong><%= t("layouts.footer.contact_us") %></strong>
-        <%= t("layouts.footer.contact_us_text") %>
-        <%= link_to 'informatica@ayuntamientoelrosario.org', 'mailto:informatica@ayuntamientoelrosario.org' %>
+        <%= t("layouts.footer.contact_us") %>
+        <%= link_to t("layouts.footer.faq"), faq_path %>
       </p>
     </div>
 
