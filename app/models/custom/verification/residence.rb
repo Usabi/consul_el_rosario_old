@@ -22,6 +22,11 @@ class Verification::Residence
 
   private
 
+    def residency_valid?
+      @census_data.valid? &&
+        @census_data.date_of_birth == date_of_birth
+    end
+
     def valid_postal_code?
       postal_code =~ /^280/
     end
