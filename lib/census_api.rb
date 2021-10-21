@@ -65,7 +65,7 @@ class CensusApi
     end
 
     def client
-      @client = Savon.client(wsdl: Rails.application.secrets.census_api_end_point)
+      @client = Savon.client(wsdl: Rails.application.secrets.census_api_end_point, ssl_verify_mode: :none)
     end
 
     def request(document_type, document_number)
